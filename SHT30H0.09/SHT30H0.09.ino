@@ -262,6 +262,7 @@ armarLcd
 
 *********************************************************************/
 void armarLcd(void) {
+ lcd.clear();
  if (!isnan(t)) {
 
   lcd.setCursor(0,0);
